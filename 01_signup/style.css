@@ -1,0 +1,77 @@
+.card {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 400px;
+    height: 525px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+
+    border-radius: 30px;
+    background: rgba(176, 166, 166, 0.3);
+    box-shadow: 0 5px 30px black;
+}
+
+#card h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}   
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/IMG/netflix-wallpaper-5120x2880.jpg);
+    background-position: reletive;
+    background-size: cover;
+    color: #9d9a9a;
+    font-family: sans-serif;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.bt1 {
+    background-color: #aa1f15;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+    margin-left: 80px;
+}
+.bt1:hover {
+    background-color: #944738;
+}
+.email, .name, .password {
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+}
+h2 {
+    color: #eeeeee;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.login {
+    text-align: center;
+    display: block;
+    color: hsl(13, 4%, 58%);
+    text-decoration: none;
+    margin-top: 15px;
+}

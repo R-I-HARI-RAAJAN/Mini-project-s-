@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/IMG/background_image.jpg); ;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-family: sans-serif;
+
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.bt {
+    background-color: #c12d0f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+    margin-left: 80px;
+}
+.bt:hover {
+    background-color: #7b301f;
+}
+.email, .name, .password {
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+}
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 400px;
+    height: 475px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+
+    border-radius: 30px;
+    background: rgba(175, 146, 105, 0.3);
+    box-shadow: 0 5px 30px black;
+}
+.sign {
+    text-align: center;
+    display: block;
+    color: #f1eded;
+    text-decoration: none;
+    margin-top: 10px;
+}
