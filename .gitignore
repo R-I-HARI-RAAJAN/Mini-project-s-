@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+.vscode/
+node_modules/
+*.log
+.env
+*.tmp
+*.swp
+__pycache__/
+
+# OS
+desktop.ini
+
+# macOS
+.DS_Store
