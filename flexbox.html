@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            margin-bottom: 40px;
+        }
+        .flexbox {
+            display: flex;
+            border: 2px solid #333;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        .item {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            margin: 5px;
+            text-align: center;
+            flex: 1;
+        }
+        .column {
+            flex-direction: column;
+        }
+        .justify-space-between {
+            justify-content: space-between;
+        }
+        .align-center {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox Masterclass Demo</h1>
+
+    <div class="container">
+        <h2>1. Default Flexbox (row)</h2>
+        <div class="flexbox default">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>2. Column Direction</h2>
+        <div class="flexbox column">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>3. Justify Content: Space Between</h2>
+        <div class="flexbox justify-space-between">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>4. Align Items: Center</h2>
+        <div class="flexbox align-center" style="height: 150px;">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+        </div>      
+    </div>
+
+</body>
+</html>
