@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive design</title>
+    <style>
+        .responsive {
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+            max-width: 600px;
+            margin: auto;
+            font-size: 20px;
+        }
+        @media (max-width: 600px) {
+            body {
+                align-items: flex-start;
+            }
+            .responsive {
+                background-color: lightgreen;
+                font-size: 18px;
+            }
+        }
+        @media (max-width: 400px) {
+            .responsive {
+                background-color: lightcoral;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="responsive">
+        <h1>Responsive Design Example</h1>
+        <p>This content adjusts based on the screen size.</p>  
+    </div>
+</body>
+</html>
